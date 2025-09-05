@@ -1,0 +1,21 @@
+What is Network:-
+
+The use of Netowrk:
+  1)  Sharing Hardware  (Printers....)
+  2)  Sharing Data
+  3)  Data Protection
+
+------------------------  Netowrk  Components  -------------------
+1-  End Devices   (PCs, Laptops, Phones,....)
+2-  Network Media (Cable, Wirless Connection)
+3-  Network Interface  (Transfere the Data from 0,1  to  Elertic Signal "Incase of Copper Cable used"  OR Light Signal  "incase of Optical Fiber Cable"  OR  "Radio Frequency incase of Wireless")
+=====>  Cables
+1] Copper Cables
+  1)  Coaxial Cable        (Used in TVs,  Container From  "Core, Isolation Layer,  Outer Jacket")
+  2)  Twisted Paoer Cable  (CAT 5 "100 Mbit/s", CAT5e "1000 Mbits/s  OR  1Gbits/s",  CAT6 "10Gbits/s")
+
+Connected with  RJ45 ,  with Long Distand  100 m
+
+2]  Optical Fiber
+  Trasfer Light ray    (Containre From   "Core made from Glass OR Plastic"  ,  Cladding "To not allow the signal to Leak outside the core,  Kevelar Fiber  ,  Outer Jacket ) 
+  -  High Speed  "Light Speed"
