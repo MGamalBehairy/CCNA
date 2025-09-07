@@ -1,0 +1,49 @@
+Switeches are Connected via "RJ45"  Register Jack 45
+10 Base-T  =>  10M bitsper/sec,  T  =>  Twisted Pair cableing
+Maximum Length  =  100m
+
+
+Why are Wires Twisted?
+=>  To reduse the Magbetic Field
+
+
+
+1] Straigt-through Cable  (PC, Router  to S.W):-
+Pair(1,2  &  3,6)
+1,2   Transimitter (Pc)       ==>    1,2      Receiver (S.W)
+3,6   Receiver  (PC)          ==>    3,6      Transmiter (S.W)
+
+
+2] Cross-over Cable    (NOT Used in Modern Devices)
+PC,Router  to  PC,Router
+1,2  (TX)      TO    3,6  (RX)
+3,6  (RX)      TO    1,2  (TX)
+
+because  pin 1,2  is responsible for just transmittiong  NOT Receiving,    so the Destination can't Receive with pin 1,2.    so  we  it will change 1,2  to 3,6
+
+Now, The Modern Devices use    "Auto MDI-X"  it use Straigh-through cable  and can recognize if the device is router,pc OR S.W  and transmit and Receive
+
+
+
+Termination تأريج    RJ 45
+----------------------------------------------------------------------------  Fiber Optics  ------------------------------------------------
+Fiber Opticts Not use RJ 45,  but instead use " SFP Transceiver "  to Connect to S.W    (Small Form-Factor Pluggable)
+the Data is in form "Light Signal"
+there are 2 Wires  (One For Transmit    and   one for Receiver)
+
+types OF Optical Fiber:-
+1)  Multi-mode
+      Small Distance
+      Cheap
+      LED Based
+      The Core diameter is large
+
+2)  Single Mode
+    Large Distance
+    Expensive
+    Laser
+    Core is very tiny
+
+
+8  bits = 1 byte
+
