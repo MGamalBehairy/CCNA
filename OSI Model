@@ -1,0 +1,52 @@
+OSI (Open System Interconnection)
+
+7-  Application Layer:-  Support The Protocol based on your action, if you will browse, Application Layer will provide HTTP Protocol,  if Download will provide FTP, if email will provide SMTP Protocol
+6-  Presentation Layer:-  1)  Convert the Data From Human Language To Machine Language (0, 1) it called "Translation",  so it present the Data
+                          2)  Compress Data to make the size small  (Data Compression),  so the Action will take less time to execute
+                          3)  Encryption  (Encrypt the data at the transmitter and decrypt it at the Reciever)
+5-  Session:- 1-  Define the Transmision Mode (Simplex,  Half-Duplex,  Full-Duplex)
+              2-  Authentication
+              3-  Authorization
+              4-  Session Managment  (open/Close session)
+
+
+====>  The Above three Layers, called  "software Layers"
+
+4- Transport Layer:-  1-  Transfer data
+                      2-  Segmentation  (devide the data into Segments ""small peices" to transfer data faster)
+                      3-  Flow Control  (The Abilty to transmit or receive data)
+                      4-  Define Protocol  (TCP  OR UDP)  Transmission  Control Protocol  ,  User Datagram Protocol
+
+3-  Network Layer:-  1-  Logical Addressing  (assign IP addresses for transmitter and receiver),  so it will be Data segment + source IP  +  Destenation IP  =  Packet (Data Unit)
+                     2-  Routing    (Choose best path from src to dest.  based on protocols like OSPF OR RIP)  OSPF:-  Open Shortest Path First,  RIP:  
+2-  Data Link Layer:-  Assign Physical Addressing  "MAC Address"      (Packet + src IP + dest. IP  =>  Frame  ) 
+                        2-  Error Detection (UDP) & Correction  (TCP)
+
+Error Detection & Correction Methods:-
+  1)  Parity Check:-  Count number of Ones at the Src,  and compare it to number of one at the Dest.
+                      if number of 1's is "even" ,  then the parity check is "0"
+                  and if number of 1's is "Odd" ,  then the parity check is "1"
+                  but this method is ineffecient becuase if there were 2 bits incorrect then we will not discover there is an Error
+  2)  Checksum:-  get the bits of data
+                  then get 1's comploment
+                  sum them together,  and the output  should  be all one  "11111111"
+                  then get 1's comploment,   if the result is all zeros   "00000000"  then the receiver will accept the data
+
+1-  Physical  Layer:-  Convert the Machine Language "0, 1" to Signals "based in the Media" it may be Electrical Signal incase of copper cables, OR  Optical Signal in Fiber Optics, OR Radio Signal in Wireless
+TCP:-
+  1-  Connection-Oriented transmission  (make sure the data has delivered successfuly) 
+
+UDP:-  
+  1-  Connection-LESS transmission  
+  2-  Fast
+  3-  Used in stream
+
+
+MAC Address: Media Access Control  contain from   "12" Digit "Hexadecimals"    every digit is 4 bit  so total   "48 bits"  ,  MAC address burned in the NIC
+
+CSMA:Carrier Sense Multiple Access
+
+Summary:-
+Presentation:-  Translation,  Compresion,  Encryption
+
+
