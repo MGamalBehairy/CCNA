@@ -1,0 +1,39 @@
+1]  Bus Topology:  All Computers Connected to Centeral Cable
+  Advantages:-
+    1-  Inexpensive (cheap)  
+    2-  Easy to install
+
+  Disadvantages:-
+    1-  Low Performance
+    2-  Limited Computers    (To avoid Data Collision)
+    3-  Low Fault Tolerance   (if the there is data collision in the cable,  the network will be down)    (Fault Tolerance مصطلح بنستخدمه مع امكانية لشبكة او السيستم انه يفضل شغال مع وجود  اخطاء او مشاكل)
+    4-  Less Secure  (The message is Broadcasting to all Devices)
+
+
+2]  Ring Topology:    Computers Connected in A Circle
+  Advantages:-
+  1-  Easy To install  
+  2-  No data Collision
+
+  Disadvantages:-
+    1-  Low Transmit  (becuase the message will move in the Circle until it reach to the distination)
+    2-  Low Fault Tolerance  (if one device down  =>  All Network will be down)
+    3-  Difficult to Reconfigure    (if want to add or remove device from the network, it will be difficult)
+
+3]  Mesh Topology:-  Redundant Topology
+  Advantages:-
+    1-  NO Fault Tolerance
+    2-  More Secure  (Point to point Devices)
+    3-  No Data Collision
+  Disadvantages:-
+    1-  Very High Cost
+    2-  Difficult To Install
+    3-  Difficult to Troubleshoot and Manage
+
+4-  Start Topology  (Common use):-  Devices Connected via  Central Device (Switch)
+  Advantages:-
+    1-  Inexpensive
+    2-  Scalability    (Add/Remove any device to/from the Network)
+  Disadvantages:-
+    1-  Single point of Failure  (if the Central Device (S.W) is down,  then the All Network will be Down)
+        Solution  =>  and we can fix it using another S.W,  if the Primary S.W is down,  then there will be another Switch
