@@ -1,0 +1,18 @@
+Type Of Casting:-
+1)  UniCasto  =>  One-to-One        using IP address OR Mac Adress
+
+2)  MultiCast  =>  One-to-Many    
+
+3)  Broadcast  =>  One-to-All
+  1-  Limited Broadcast  255.255.255.255              ()
+  2-  Direct  Broadcast  Last IP Of the Network       (To all users in Network)
+
+
+
+
+------------------------------------------   Transmission Mode   -------------------------------------------------------------------------
+1)  Simplex mode:-  "Unidirectional"  (Sender OR Receiver    NOT All Together)
+
+2)  Half-Duplex:-   "A Sending to B      OR    B Sending to A"  The Device Can't Transmit and Receive at the same time
+
+3)  Full-Duplex:-  The Device Can Transmit and Recieve at the Same Time
