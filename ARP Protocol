@@ -1,0 +1,4 @@
+ARP tie  the "MAC" Address with the "IP" address
+because switch doesn't know the ip and it operates only with the mac address,    so  it will save the mac address with the IP
+Ex.  00:1A:2B:3C:4D:5E  =  10.0.0.6
+
