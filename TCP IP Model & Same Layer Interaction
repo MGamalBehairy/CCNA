@@ -1,0 +1,44 @@
+Original  TCP/IP  is Protocol contain from 4 Layers
+
+
+Application        ==> in OSI    Application, Presentation, Session        they cobined these3 layers,  because Netowork Engineer Doesn't do anything in the software layers
+Transport          ===>          Transport
+Internet                         Network
+Link              ====>          Data Link,& Physical
+
+
+
+
+Updted  TCP/IP container  "5"  Layers
+      =>  Data Link
+Link  |
+      =>  Pysical Layers
+
+
+
+
+
+
+If A  want to send Video To Device B via telegram
+
+Telegram work in Application Layer
+data will go outside the Application layer and it will be Encapslated in Transport Layer,  Internet Layer,  Link Layer
+
+Transport Layer will determine which Protocol will work,  in this case it will be TCP,    TCP Protocol will Devide the data into "Segments" & will add TCP Header (Port number, Sequence no. , Ack no)
+
+Internet Layer will add in it the "IP Header" (Src IP, Dest. IP)
+
+Data Link will add (src MAC, Dest. Mac)
+
+
+
+then the data will go to the router,  and it will make "Decapsulation"  to get the MAC,  and will go to the internet Layer to Decapsulate to get the Dest. IP
+
+
+
+
+NOTE:  Transport Layer Between SRC & Dest.  Called  ==>  "Host-to-Host-Communication"
+
+      Application                           Called  ==>  "Process-to-process-communication"
+
+Same Layer Interaction
