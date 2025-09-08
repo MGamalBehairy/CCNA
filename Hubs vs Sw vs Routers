@@ -1,0 +1,45 @@
+1] Hubs Disadvantages:-
+  1-  Broadcast the Data in the network except the src device    =>  Security Concerns
+  2-  Make Problems in Bandwidth
+  3-  DO NOT Deal with IP addresses or MAC   => Layer 1  ,  Just Repeat the Data to all Devices
+  4-  Half-duplex    =>  can make Collisions
+
+2] S.W
+  Advantages:-
+  1- Can Determine the Dest.  using the MAC Table  (Save the MAC address of devices and  which port/interface is connected to the S.W)
+
+Interface          MAC Address
+    1            aa-aa-aa-aa-aa-aa        
+    6            bb-bb-bb-bb-bb-bb
+
+
+  2-  Full-Duplex    =>Multiple Collision Domain
+  3-  Layer 2 => Support MAC Address
+
+
+3] Router:-
+    Advantages:-
+      1-  Layer 3 Device    => Support IP Address
+      2-  Container Routing Table
+
+  Routing Table:-  
+  Interface            Network        (Each Interface is  a  Seprate Netowrk)
+      2                10.0.0.0
+      6                20.0.0.0
+      5                30.0.0.0
+
+
+
+
+MCA Address Contain from  "6" Octet  00:1A:2B:3C:4D:5E    00 present  "one octet"    ,    1 Octet = 8 bit
+
+First 3 Octet  chosen by the manufacture
+Ways to Type MAC Address:-
+  1-  Hypen Hexadecimal Notation    00-1A-2B-3C-4D-5E    ==>    (  -  )
+  2-  Colon Hexadecimal Notation    00:1A:2B:3C:4D:5E    ==>    (  :  )
+  3-  Dot-Hexadecimal Notation      001A.2B3C.4D5E    ==>    (  :  )
+
+
+Why we need MAC Address and we have already the IP Address ??
+=>  Because the S.W lay in Layer 2 ,    that just support MAC Not IP address,    so for internal LAN,    the devices will connected together through S.W  ,  and S.W needs MAC to know the dest.
+
