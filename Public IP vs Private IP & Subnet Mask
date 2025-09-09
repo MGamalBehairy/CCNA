@@ -1,10 +1,51 @@
-IPv4  is contain from     "4"  Octet,      1 octet = 8 bit,      so IPv4 contain from  48 bits
+IPv4  is contain from     "4"  Octet,      1 octet = 8 bit,      so IPv4 contain from  32 bits
+
+Possibilty  =  2^32  =  4 Billions Devices
+
 
 192.168.1.5      ==>      192  represent 1 octet
 
 
-Class  "A"  1  :  126
+"Public"  IP  Address  Classes
 
-Class  "B"  127  :  191
+Class  "A"  1    :  126            ٍSubnet Mask  =>  255.0.0.0
 
-class  "C"  "192"
+Class  "B"  127  :  191            ٍSubnet Mask  =>  255.255.0.0
+
+class  "C"  "192  :  223"          ٍSubnet Mask  =>  255.255.255.0      Many Networks  ,  Low Number of Hosts  (Devices)
+
+Class  "D"  "124  :  239"      Used for "MultiCast"
+
+Class  "E"  "240  :  255"      Used for  "Scientefic  &  Research"  
+
+
+127    is for   "Loopback"      Used to check  the  TCP/IP  Protocl is Installed Properly  
+
+
+
+
+-------------------------------------------------------------------------------------------------------------
+
+===>  Private IP Address:-
+        can't go Internet,    Used internal LAN
+
+===>  Public IP Address:-
+        for Internet
+
+
+
+"Private"  IP  Address  Classes
+
+Class  "A"  "10.0.0.0     :  10.255.255.255"          255.0.0.0          Large Organisation
+
+Class  "B"  "172.16.0.0   :  172.31.255.255"          255.255.0.0        Mid
+
+Class  "C"  "192.168.0.0  :  192.168.255.255"         255.255.255.0      Home,  Small Business
+
+
+--------------------------------------------------------------------------------------------------------------------
+
+IPv6:-
+    128 bit    ,        8 Groups  Hexadecimal
+
+Possibilty  =  2^128  =  
