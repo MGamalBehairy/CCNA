@@ -1,0 +1,10 @@
+IPv4  is contain from     "4"  Octet,      1 octet = 8 bit,      so IPv4 contain from  48 bits
+
+192.168.1.5      ==>      192  represent 1 octet
+
+
+Class  "A"  1  :  126
+
+Class  "B"  127  :  191
+
+class  "C"  "192"
