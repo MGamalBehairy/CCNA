@@ -66,4 +66,5 @@ NOTE:    in  "POINT-to-POINT"      we use    prefix   /31       ,      number of
           but  in   point-to-point    we don't Need  Netowrk ID   OR  Broadcast,      so we use these 2 IPs  for the interfaces of Router  (first IP => 192.168.1.0  ,  second ip => 192.168.1.1)
 
 
+Number of Subnets can create in the Networks  =  2^x  ,  where x => is the borrowed bits (EX.  if u toke 3 bits from the Host Bits => 2^3 = 8 subnets)    Borrow 3 Bits =>  11100000 = /27
 
