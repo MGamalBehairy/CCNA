@@ -28,7 +28,7 @@ Error Detection & Correction Methods:-
                   and if number of 1's is "Odd" ,  then the parity check is "1"
                   but this method is ineffecient becuase if there were 2 bits incorrect then we will not discover there is an Error
   2)  Checksum:-  get the bits of data
-                  then get 1's comploment
+                  then get 1's complement
                   sum them together,  and the output  should  be all one  "11111111"
                   then get 1's comploment,   if the result is all zeros   "00000000"  then the receiver will accept the data
 
